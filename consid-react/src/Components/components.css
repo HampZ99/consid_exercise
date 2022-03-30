@@ -1,0 +1,54 @@
+#category-list {
+  color: seashell;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  width: auto;
+}
+#category-list table {
+  width: 100vw;
+  height: auto;
+}
+#category-list th {
+  font-size: 20px;
+}
+#category-list h5 {
+  color: #242424;
+}
+#addCategoryBtn {
+  width: 50vw;
+  top: 0;
+  margin-bottom: 20px;
+}
+#addLibraryItemBtn {
+  width: calc((100vw / 4) - 15px);
+}
+#sort {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#sort:hover {
+  color: red;
+}
+.btn {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: seashell;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: seashell;
+  background-color: #242424;
+}
+.btnDark {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #242424;
+  color: seashell;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #242424;
+  border-radius: 4px;
+  cursor: pointer;
+}
